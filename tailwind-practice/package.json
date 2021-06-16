@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.4",
+    "tailwindcss": "^2.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
